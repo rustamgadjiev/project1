@@ -1,0 +1,193 @@
+@media (max-width: 1156px){
+    .services__items{
+        display: block;
+    }
+    .services__items-item{
+        max-width: 80%;
+        min-height: 330px;
+        margin: 30px auto;
+    }
+    .form__inner{
+        background-image: none;
+    }
+    .news__inner{
+        display: block;
+    }
+    .news__inner .news__slider{
+        max-width: 100%;
+        margin-bottom: 90px;
+    }
+    .news__inner .news__blog{
+        display: block;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .news__inner .news__blog::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+    .news__inner .news__blog .news__images{
+        float: left;
+        margin-right: 20px;
+    }
+    .news{
+        padding-bottom: 60px;
+    }
+    .footer__inner{
+        display: block;
+    }
+    .footer__map{
+        max-width: 100%;
+    }
+    .footer__info{
+        max-width: 465px;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 900px){
+    .slider .slick-btn{
+        display: none !important;
+    }
+    .services__top{
+        display: block;
+    }
+    .services__top-btn{
+        text-align: center;
+    }
+    .form__inner .form__content .form__title-box,
+    .services__top-title-box,
+    .news .news__top .news__title-box{
+        padding-left: 0;
+        text-align: center;
+        margin: 0 auto 30px;
+    }
+    .form__inner .form__content .form__box-inner{
+        display: block;
+    }
+    .form__inner .form__content .form__box-inner .form__box-left,
+    .form__inner .form__content .form__box-inner .form__box-right{
+        max-width: 100%;
+    }
+    .form__inner .jq-selectbox.jqselect{
+        margin-bottom: 10px;
+    }
+    .form__inner .form__content .form__title-box::before,
+    .services__top-title-box::before,
+    .news .news__top .news__title-box::before{
+        display: none;
+    }
+    .advantages__inner{
+        display: block;
+    }
+    .advantages__inner .advantages__item{
+        max-width: 80% !important;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .form{
+        padding-bottom: 25px;
+    }
+    .news__top{
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width: 700px){
+    .header__top-contacts{
+        text-align: center;
+    }
+    .header .header__top-btn{
+        float: none;
+    }
+    .header__top-btn::before{
+        display: none;
+    }
+    .menu ul{
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 10;
+    }
+    .header .header__content-inner .menu li{
+        display: block;
+        text-align: center;
+        background-color: #ffc222;
+    }
+    .header .header__content-inner .menu li + li{
+        border-top: 1px solid #fff;
+        padding-left: 0;
+    }
+    .header .header__content-inner .menu li a{
+        color: #fff;
+        display: block;
+    }
+    .header .header__content-inner .header__btn-menu{
+        display: block;
+    }
+    .header .header__content-inner .header__btn-menu .icon-bars{
+        font-size: 28px;
+    }
+}
+@media (max-width: 600px){
+    .services__items-item{
+        max-width: 100%;
+        min-height: 375px;
+        margin: 30px auto;
+    }
+    .advantages__inner .advantages__item{
+        max-width: 100% !important;
+    }
+}
+@media (max-width: 500px){
+    .news__inner .news__blog .news__images{
+        float: none;
+    }
+    .news__inner .news__blog{
+        margin-bottom: 20px;
+    }
+    .news__inner .news__slider{
+        padding: 50px 15px 45px 25px;
+    }
+    .news__inner .news__slider::before{
+        left: 25px;
+    }
+    .news__inner .news__slider .slick-next{
+        right: -15px;
+    }
+    .news__inner .news__slider .slick-prev{
+        right: 35px;
+    }
+    .news__inner .news__slider .slick-btn{
+        bottom: -120px;
+    }
+}
+@media (max-width: 414px){
+    .slider__item-content .slider__item-title{
+        font-size: 24px;
+    }
+    .slider__item-content .slider__item-text{
+        font-size: 16px;
+    }
+}
+@media (max-width: 400px){
+    .header__top-btn::before{
+        display: block;
+    }
+    .advantages__inner .advantages__item{
+        padding: 0;
+    }
+}
+@media (max-width: 382px){
+    .header__top-email{
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 700px){
+    .menu ul{
+        display: block !important;
+    }
+}
